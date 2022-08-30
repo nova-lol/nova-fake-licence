@@ -23,7 +23,7 @@
     "repositories": [{
       "type": "composer",
       "url": "https://laravel-nova.site"
-    }]
+    }],
     "autoload": {
         "psr-4": {
             "NovaLol\\FakeLicense\\": "src"
