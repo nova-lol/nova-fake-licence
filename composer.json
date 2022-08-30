@@ -17,9 +17,13 @@
     ],
     "require": {
         "php": "^8.1",
-        "laravel/nova": "^4.5.4",
+        "laravel/nova": "^4.13.0",
         "illuminate/contracts": "^9.0"
     },
+    "repositories": [{
+      "type": "composer",
+      "url": "https://laravel-nova.site"
+    }]
     "autoload": {
         "psr-4": {
             "NovaLol\\FakeLicense\\": "src"
